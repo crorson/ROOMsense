@@ -54,7 +54,7 @@ namespace Si7021_Sensor_driver_package
             si7021Sensor = await I2cDevice.FromIdAsync(devices[0].Id, si7021_settings);
 
             // Start the polling timer.
-            timer = new DispatcherTimer() { Interval = TimeSpan.FromMilliseconds(500) };
+            timer = new DispatcherTimer() { Interval = TimeSpan.FromMilliseconds(5000) };
             timer.Tick += Timer_Tick;
             timer.Start();
         }
