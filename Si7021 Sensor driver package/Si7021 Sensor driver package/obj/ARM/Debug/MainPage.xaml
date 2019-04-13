@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Si7021_Sensor_driver_package.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Si7021_Sensor_driver_package"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:ConnectionId='1' x:Name="textblock_1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Bitte Warten" VerticalAlignment="Center" FontSize="72" Height="341" Margin="553,336,553,323"/>
+
+    </Grid>
+</Page>
+
